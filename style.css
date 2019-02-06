@@ -1,0 +1,97 @@
+.item11
+{
+        grid-area: contacts;
+}
+
+.item12
+{
+        grid-area: img;
+        text-align: right;
+        margin-right: 5%;
+}
+
+.item13
+{
+        grid-area: word;
+        text-align: left;
+        margin-top: 8%;
+}
+
+.header
+{
+        display: grid;
+        grid-template-areas:
+          'contacts contacts img img'
+          'word word img img'
+          'word word img img';
+        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 1%;
+}
+
+.item21
+{
+        border-style: solid;
+}
+
+.main
+{
+        display: grid;
+        background-color: #eeeeee;
+        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 1%;
+
+}
+
+.text
+{
+        width: 100%;
+        border: none;
+}
+
+.button
+{
+        margin-top: 5%;
+        float: right;
+}
+
+.minibox
+{
+        width: 25.8%;
+}
+
+.item32
+{
+}
+
+.footer
+{
+        display: grid;
+        grid-template-columns: auto 90%;
+        padding: 2%;
+}
+
+
+
+
+
+
+.resize
+{
+        width:70%;
+        height: auto;
+
+}
+
+
+
+input
+{
+        border: none; width: 25%;
+        height: 2.5em;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+}
